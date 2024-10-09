@@ -146,6 +146,7 @@ function initgrouplist() {
 			dataSrc: "allgroups",
 		},
 		columns: [
+			{data: "uid"},
 			{
 				data: "name",
 				render: function (data, type, row) {

@@ -38,7 +38,7 @@ var oldcurrentinfo='dlkfajsdl;';
  var oldddata="dkjlf";
  var oldrdata="kfld";
  var selhosts="";
- var seldhosts="";
+ var seldhosts="";  
  var modaltill=idletill-120000
  var grouplisttable;
  var myid="<?php echo $_REQUEST['myid'] ?>";
@@ -143,11 +143,10 @@ function initgrouplist(){
         dataSrc: 'allgroups'
       },
       "columns": [
-        {
-          data: "name",
-          render: function(data, type, row){
-           
-              return data;
+        {data: "uid"},
+          render : function(){
+            return "Hima"
+          }              return data;
           }
           
         }, 

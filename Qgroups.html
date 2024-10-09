@@ -346,16 +346,18 @@
                 <div class="card-body">
 
                   <div class="form-group row">
+                    <label for="groupUid" class='col-2 '>Group Uid</label>
+                    <input type="text" class="form-control offset-1 col-4 " id="groupUid" placeholder="Group Uid">
+                  </div>
+
+                  <div class="form-group row">
                     <label for="Group" class='col-2 '>Group Name</label>
-                    <input type="text" class="form-control offset-1 col-5 " id="Group" placeholder="Group Name">
+                    <input type="text" class="form-control offset-1 col-4" id="Group" placeholder="Group Name">
                   </div>
                   <div class="form-group row">
-
                       <label  for="groupusers" class='col-3'>Users in Group</label>
-                      <select  class="select2 multiple form-control offset-1 col-5" multiple="multiple" id="groupusers" value="NoUroup">
-                      
+                      <select  class="select2 multiple form-control offset-1 col-4" multiple="multiple" id="groupusers" value="NoUroup">
                       </select>
-
                   </div>
 
                 </div>
@@ -379,6 +381,7 @@
                 <table id="groupList" class="table table-sm table-hover  table-striped">
                   <thead  style="background-color:#2939C6; color: white;">
                   <tr>
+                    <th>Group Uid</th>
                     <th>Group Name</th>
                     <th>Users in Group</th>
                     <th>Need update</th>

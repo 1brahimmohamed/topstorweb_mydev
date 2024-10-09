@@ -149,6 +149,7 @@ function initUserlist(){
         }, {data:"pool"}, {data:"size"},
         {
           data:"groups",
+
           render: function(data, type, row){
             return '<select class="select2 multiple usergroups '+row.name+' form-control"' 
             + ' multiple="multiple" data-name='+row.name+'  onclick="tdisclicked(this)"' 

@@ -457,6 +457,7 @@ function initUserlist() {
 			dataSrc: "allusers",
 		},
 		columns: [
+			{data: "uid"},
 			{
 				data: "name",
 			},
