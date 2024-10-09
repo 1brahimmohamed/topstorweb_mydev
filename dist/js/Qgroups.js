@@ -146,7 +146,13 @@ function initgrouplist() {
 			dataSrc: "allgroups",
 		},
 		columns: [
-			{data: "uid"},
+			{
+				data: "uid",
+				// @TODO: when uid is provided from backend render it here.
+				render: function(data){
+					return ""
+				}
+			},
 			{
 				data: "name",
 				render: function (data, type, row) {
